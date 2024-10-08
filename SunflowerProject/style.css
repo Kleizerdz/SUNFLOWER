@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    margin: 0;
+}
+
+.flower {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px; /* Add some space between the text and the flower */
+}
+
+.petal {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+}
+
+.petal1 { transform: rotate(0deg) translate(-50%, -50%); }
+.petal2 { transform: rotate(45deg) translate(-50%, -50%); }
+.petal3 { transform: rotate(90deg) translate(-50%, -50%); }
+.petal4 { transform: rotate(135deg) translate(-50%, -50%); }
+.petal5 { transform: rotate(180deg) translate(-50%, -50%); }
+.petal6 { transform: rotate(225deg) translate(-50%, -50%); }
+.petal7 { transform: rotate(270deg) translate(-50%, -50%); }
+.petal8 { transform: rotate(315deg) translate(-50%, -50%); }
+
+.center {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Message Text Style */
+.message {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px; /* Add space between the text and the flower */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
